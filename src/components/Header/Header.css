@@ -1,0 +1,55 @@
+.header-container {
+    margin: 1rem 4rem;
+}
+
+.logo-container {
+    margin: 2rem 0rem;
+}
+
+h1 {
+    font-size: 1.7rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+.work-container {
+    margin-left: 0rem;
+    padding-inline-start: 1rem;
+}
+
+.header-list {
+    list-style: none;
+    color: rgb(151, 151, 151);
+}
+
+.header-list:hover {
+    cursor: pointer;
+    color: black;
+}
+
+h3 {
+    color: rgb(151, 151, 151);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+h3:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.socialMedia-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.social-media{
+    color: rgb(151, 151, 151);
+}
+
+.social-media:hover{
+    cursor: pointer;
+    color: black;
+}

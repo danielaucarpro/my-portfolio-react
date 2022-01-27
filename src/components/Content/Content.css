@@ -1,0 +1,29 @@
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    padding: 6rem;
+}
+
+.content-h1{
+    text-align: center;
+    font-weight: 500;
+}
+
+.content-introText{
+    color: rgb(151, 151, 151);
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.content-workContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-projectLink{
+    height: 10rem;
+    width: 20rem;
+    background-color: rgb(151, 151, 151);
+    margin: .1rem;
+}
