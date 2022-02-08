@@ -1,29 +1,45 @@
-.content-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center !important;
-    padding: 6rem;
+.content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  padding: 6rem;
 }
 
-.content-h1{
-    text-align: center;
-    font-weight: 500;
+.content-h1 {
+  text-align: center;
+  font-weight: 500;
 }
 
-.content-introText{
-    color: rgb(151, 151, 151);
-    text-align: center;
-    line-height: 1.5rem;
+.content-introText {
+  color: #979797;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1.3rem;
 }
 
-.content-workContainer{
-    display: flex;
-    flex-wrap: wrap;
+.content-workContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.content-projectLink{
-    height: 10rem;
-    width: 20rem;
-    background-color: rgb(151, 151, 151);
-    margin: .1rem;
+.content-projectLink {
+  height: 10rem;
+  width: 20rem;
+  background-color: #979797;
+  margin: .1rem;
 }
+
+.content-projectLink:hover {
+  scale: calc(2rem);
+}
+/*# sourceMappingURL=Content.css.map */

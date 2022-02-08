@@ -1,0 +1,71 @@
+.contactForm-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.contact-form {
+  padding: 5rem;
+}
+
+.contact-form button {
+  padding: 0.6rem;
+  width: 7rem;
+  border-radius: 0.5rem;
+  border: 1px solid #5f7991;
+  background-color: #5f7991;
+  color: white;
+  font-size: 1rem;
+}
+
+.contact-form button:hover {
+  background-color: #012b55;
+  border: 1px solid #012b55;
+  cursor: pointer;
+}
+
+.contact-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  text-align: initial;
+  margin: 1rem;
+}
+
+.contact-control label {
+  font-weight: bold;
+}
+
+.contact-control input,
+.contact-control textarea {
+  padding: 0.8rem;
+  border: 1px solid lightgray;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-control textarea {
+  height: 10rem;
+}
+/*# sourceMappingURL=Contact.css.map */

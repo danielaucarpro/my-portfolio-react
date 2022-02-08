@@ -6,8 +6,11 @@
     margin: 2rem 0rem;
 }
 
-h1 {
+.header-logo{
     font-size: 1.7rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
 
 h2 {
@@ -22,6 +25,7 @@ h2 {
 .header-list {
     list-style: none;
     color: rgb(151, 151, 151);
+    text-decoration: none;
 }
 
 .header-list:hover {
@@ -29,27 +33,28 @@ h2 {
     color: black;
 }
 
-h3 {
-    color: rgb(151, 151, 151);
-    font-weight: 600;
-    font-size: 1rem;
-}
-
-h3:hover {
-    cursor: pointer;
-    color: black;
-}
-
-.socialMedia-container{
+.socialMedia-container {
     display: flex;
     gap: 1rem;
 }
 
-.social-media{
+.social-media {
     color: rgb(151, 151, 151);
 }
 
-.social-media:hover{
+.social-media:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.header-contact {
+    color: rgb(151, 151, 151);
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.header-contact:hover {
     cursor: pointer;
     color: black;
 }
